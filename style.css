@@ -1,0 +1,108 @@
+$brandColor: darkorchid;
+
+body {
+  font-family: system-ui;
+  background: linear-gradient(to bottom, $brandColor, darken($brandColor, 15%));
+  color: white;
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+h1{
+  font-size: 32px;
+  font-weight:bold;
+  text-align:center;
+}
+
+p {
+  font-size: 30px;
+}
+
+figure figcaption {
+    text-align: center;
+}
+
+li{
+  margin: 0 0 30px 0;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+#main {
+  background-color: #1a1a1d;
+  display:flex;
+  flex-direction:column;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  font-size: 42px;
+  color: #c3073f;
+  padding-top: 1em;
+  margin-bottom: 0px;
+}
+
+#sub-title {
+  display: flex;
+  justify-content: center;
+  color: #950740;
+  padding-bottom: 2em;
+  margin-top: 0px;
+}
+
+figcaption{
+  display:flex;
+  font-size:16px;
+  margin-top:5px;
+  font-weight:bold;
+}
+
+#tribute-info {
+  display: block;
+  width: 50%;
+  margin:auto;
+  padding-top: 2em;
+  color: #c3073f;
+  font-size: 24px;
+  flex-basis: 6;
+}
+
+#img-div {
+  display: flex;
+  padding:2em;
+  justify-content: center;
+  background-color: #4e4e50;
+}
+
+.quote-style{
+  display:block;
+  margin-left: 13em;
+  margin-right:13em;
+  font-style: italic;
+  color: #950740;
+}
+
+#sub-quote{
+  margin-left: 21em;
+}
+
+#more-info{
+  display:inline-flex;
+  margin-left: 24em;
+}
+
+#tribute-link{
+  display:flex;
+  align-items: center;
+}
